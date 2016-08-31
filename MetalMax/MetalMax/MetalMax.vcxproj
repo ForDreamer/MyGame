@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F57821C8-480C-42B9-A266-1814986EB4A2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MetalMax</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodL_vc.lib;d3dx9.lib;d3d9.lib;dxguid.lib;xapobase.lib;XInput.lib;DxErr.lib;dinput8.lib;winmm.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodL_vc.lib;d3dx9.lib;d3d9.lib;dxguid.lib;xapobase.lib;XInput.lib;DxErr.lib;dinput8.lib;winmm.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Engine\FmodSound\FmodSound.cpp" />
+    <ClCompile Include="..\Src\Engine\Hud\HudObject.cpp" />
+    <ClCompile Include="..\Src\Engine\Hud\HudObjGroup.cpp" />
+    <ClCompile Include="..\Src\Engine\Hud\Sprite.cpp" />
+    <ClCompile Include="..\Src\Engine\Hud\Text.cpp" />
+    <ClCompile Include="..\Src\Engine\Manager\RenderManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Manager\TextureManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Scene\Fader.cpp" />
+    <ClCompile Include="..\Src\Engine\Scene\Scene.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BattleActor.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BattleManager.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BattleUIMgr.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BatUIAssistList.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BatUIAtkList.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BatUIHumanMain.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BatUIInfoBox.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BatUITankMain.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BatUITextBox.cpp" />
+    <ClCompile Include="..\Src\Game\Battle\BatUIToolList.cpp" />
+    <ClCompile Include="..\Src\Game\Manager\BattleTankMgr.cpp" />
+    <ClCompile Include="..\Src\Game\Manager\CharacterMgr.cpp" />
+    <ClCompile Include="..\Src\Game\Manager\DialogSystemMgr.cpp" />
+    <ClCompile Include="..\Src\Game\Manager\EquipMgr.cpp" />
+    <ClCompile Include="..\Src\Game\Manager\GameStatusMgr.cpp" />
+    <ClCompile Include="..\Src\Game\Manager\ItemMgr.cpp" />
+    <ClCompile Include="..\Src\Game\Manager\SaveLoadMgr.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapActor.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapCamera.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapDetector.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapManager.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapNode.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapObject.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapRenderObj.cpp" />
+    <ClCompile Include="..\Src\Game\MapEngine\MapTrigger.cpp" />
+    <ClCompile Include="..\Src\Game\Scenes\BattleScene.cpp" />
+    <ClCompile Include="..\Src\Game\Scenes\EndingScene.cpp" />
+    <ClCompile Include="..\Src\Game\Scenes\InnScene.cpp" />
+    <ClCompile Include="..\Src\Game\Scenes\MapNavigationScene.cpp" />
+    <ClCompile Include="..\Src\Game\Scenes\NameSettingScene.cpp" />
+    <ClCompile Include="..\Src\Game\Scenes\StartupScene.cpp" />
+    <ClCompile Include="..\Src\Game\Scenes\WanterScene.cpp" />
+    <ClCompile Include="..\Src\Game\UI\UIBase.cpp" />
+    <ClCompile Include="..\Src\Game\UI\UIMain.cpp" />
+    <ClCompile Include="..\Src\Game\UI\UIManager.cpp" />
+    <ClCompile Include="..\Src\Game\UI\UIMisc.cpp" />
+    <ClCompile Include="..\Src\Game\UI\UITop.cpp" />
+    <ClCompile Include="..\Src\Main\Global.cpp" />
+    <ClCompile Include="..\Src\Main\MainApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Engine\FmodSound\FmodSound.h" />
+    <ClInclude Include="..\Src\Engine\Hud\HudObject.h" />
+    <ClInclude Include="..\Src\Engine\Hud\HudObjGroup.h" />
+    <ClInclude Include="..\Src\Engine\Hud\Sprite.h" />
+    <ClInclude Include="..\Src\Engine\Hud\Text.h" />
+    <ClInclude Include="..\Src\Engine\Manager\RenderManager.h" />
+    <ClInclude Include="..\Src\Engine\Manager\TextureManager.h" />
+    <ClInclude Include="..\Src\Engine\Misc\PreDefine.h" />
+    <ClInclude Include="..\Src\Engine\Misc\Singleton.h" />
+    <ClInclude Include="..\Src\Engine\Scene\Fader.h" />
+    <ClInclude Include="..\Src\Engine\Scene\Scene.h" />
+    <ClInclude Include="..\Src\Game\Battle\BattleActor.h" />
+    <ClInclude Include="..\Src\Game\Battle\BattleConfig.h" />
+    <ClInclude Include="..\Src\Game\Battle\BattleManager.h" />
+    <ClInclude Include="..\Src\Game\Battle\BattleUIMgr.h" />
+    <ClInclude Include="..\Src\Game\Battle\BatUIAssistList.h" />
+    <ClInclude Include="..\Src\Game\Battle\BatUIAtkList.h" />
+    <ClInclude Include="..\Src\Game\Battle\BatUIHumanMain.h" />
+    <ClInclude Include="..\Src\Game\Battle\BatUIInfoBox.h" />
+    <ClInclude Include="..\Src\Game\Battle\BatUITankMain.h" />
+    <ClInclude Include="..\Src\Game\Battle\BatUITextBox.h" />
+    <ClInclude Include="..\Src\Game\Battle\BatUIToolList.h" />
+    <ClInclude Include="..\Src\Game\Manager\BattleTankMgr.h" />
+    <ClInclude Include="..\Src\Game\Manager\CharacterMgr.h" />
+    <ClInclude Include="..\Src\Game\Manager\DialogData.h" />
+    <ClInclude Include="..\Src\Game\Manager\DialogSystemMgr.h" />
+    <ClInclude Include="..\Src\Game\Manager\EquipMgr.h" />
+    <ClInclude Include="..\Src\Game\Manager\GameStatusMgr.h" />
+    <ClInclude Include="..\Src\Game\Manager\ItemMgr.h" />
+    <ClInclude Include="..\Src\Game\Manager\SaveLoadMgr.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapActor.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapCamera.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapConfig.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapDetector.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapManager.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapNode.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapObject.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapRenderObj.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapTexDef.h" />
+    <ClInclude Include="..\Src\Game\MapEngine\MapTrigger.h" />
+    <ClInclude Include="..\Src\Game\Scenes\BattleScene.h" />
+    <ClInclude Include="..\Src\Game\Scenes\EndingScene.h" />
+    <ClInclude Include="..\Src\Game\Scenes\InnScene.h" />
+    <ClInclude Include="..\Src\Game\Scenes\MapNavigationScene.h" />
+    <ClInclude Include="..\Src\Game\Scenes\NameSettingScene.h" />
+    <ClInclude Include="..\Src\Game\Scenes\StartupScene.h" />
+    <ClInclude Include="..\Src\Game\Scenes\WanterScene.h" />
+    <ClInclude Include="..\Src\Game\UI\UIBase.h" />
+    <ClInclude Include="..\Src\Game\UI\UIMain.h" />
+    <ClInclude Include="..\Src\Game\UI\UIManager.h" />
+    <ClInclude Include="..\Src\Game\UI\UIMisc.h" />
+    <ClInclude Include="..\Src\Game\UI\UITop.h" />
+    <ClInclude Include="..\Src\Main\Global.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="damotouicon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

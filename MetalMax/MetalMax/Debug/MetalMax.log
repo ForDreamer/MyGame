@@ -1,0 +1,62 @@
+﻿生成启动时间为 2016/8/31 15:55:06。
+     1>项目“E:\Projects\MetalMax\MetalMax\MetalMax.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /I"C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Main\MainApp.cpp
+         MainApp.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\MetalMax\Debug\MetalMax.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib" /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" fmodL_vc.lib d3dx9.lib d3d9.lib dxguid.lib xapobase.lib XInput.lib DxErr.lib dinput8.lib winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\MetalMax\Debug\MetalMax.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\MetalMax\Debug\MetalMax.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\FmodSound.obj
+         Debug\HudObject.obj
+         Debug\HudObjGroup.obj
+         Debug\Sprite.obj
+         Debug\Text.obj
+         Debug\RenderManager.obj
+         Debug\TextureManager.obj
+         Debug\Fader.obj
+         Debug\Scene.obj
+         Debug\BattleActor.obj
+         Debug\BattleManager.obj
+         Debug\BattleUIMgr.obj
+         Debug\BatUIAssistList.obj
+         Debug\BatUIAtkList.obj
+         Debug\BatUIHumanMain.obj
+         Debug\BatUIInfoBox.obj
+         Debug\BatUITankMain.obj
+         Debug\BatUITextBox.obj
+         Debug\BatUIToolList.obj
+         Debug\BattleTankMgr.obj
+         Debug\CharacterMgr.obj
+         Debug\DialogSystemMgr.obj
+         Debug\EquipMgr.obj
+         Debug\GameStatusMgr.obj
+         Debug\ItemMgr.obj
+         Debug\SaveLoadMgr.obj
+         Debug\MapActor.obj
+         Debug\MapCamera.obj
+         Debug\MapDetector.obj
+         Debug\MapManager.obj
+         Debug\MapNode.obj
+         Debug\MapObject.obj
+         Debug\MapRenderObj.obj
+         Debug\MapTrigger.obj
+         Debug\BattleScene.obj
+         Debug\EndingScene.obj
+         Debug\InnScene.obj
+         Debug\MapNavigationScene.obj
+         Debug\NameSettingScene.obj
+         Debug\StartupScene.obj
+         Debug\WanterScene.obj
+         Debug\UIBase.obj
+         Debug\UIMain.obj
+         Debug\UIManager.obj
+         Debug\UIMisc.obj
+         Debug\UITop.obj
+         Debug\Global.obj
+         Debug\MainApp.obj
+         MetalMax.vcxproj -> E:\Projects\MetalMax\Debug\MetalMax.exe
+     1>已完成生成项目“E:\Projects\MetalMax\MetalMax\MetalMax.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.33

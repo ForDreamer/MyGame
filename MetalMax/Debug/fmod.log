@@ -1,0 +1,953 @@
+FMOD: SystemI::init                  : FMOD Studio Version: 00010400 (54777)
+FMOD: SystemI::init                  : maxchannels = 26, flags = 00000000, extradriverdata = 00000000
+FMOD: SystemI::close                 : 
+FMOD: SystemI::close                 : Stop all sounds
+FMOD: SystemI::close                 : Remove miscllaneous DSP stuff.
+FMOD: SystemI::close                 : done.
+
+FMOD: SystemI::init                  : Set up software engine
+FMOD: OutputWASAPI::enumerate        : Enumerating...
+FMOD: OutputWASAPI::enumerate        : Initialise COM library.
+FMOD: OutputWASAPI::enumerate        : Done.
+FMOD: OutputWASAPI::init             : Initialising...
+FMOD: OutputWASAPI::init             : No output sound devices found
+FMOD: OutputWASAPI::close            : Closing...
+FMOD: OutputWASAPI::close            : Done.
+FMOD: SystemI::init                  : No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+FMOD: OutputWASAPI::close            : Closing...
+FMOD: OutputWASAPI::close            : Done.
+FMOD: OutputNoSound::init            : Initializing.
+FMOD: OutputNoSound::init            : Done.
+FMOD: OutputPolled::start            : Starting thread that automatically wakes up every 10 ms
+FMOD: Thread::initThread             : Initializing FMOD mixer thread.  priority 3
+FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               : * FMOD mixer thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : Set up emulated output
+FMOD: SystemI::init                  : create the channel pool
+FMOD: SystemI::init                  : Set up streamer
+FMOD: Thread::initThread             : Initializing FMOD stream thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 65536.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               : * FMOD stream thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : done
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Select.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 23628
+FMOD: CodecWav::parseRIFF            : chunk : id data size 23592
+FMOD: CodecWav::parseRIFF            : offset = 23628 / 23628
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 5898 samples, lengthbytes 23592
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 5898, lengthbytes 23592, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Confirm.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 51760
+FMOD: CodecWav::parseRIFF            : chunk : id data size 51724
+FMOD: CodecWav::parseRIFF            : offset = 51760 / 51760
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 12931 samples, lengthbytes 51724
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 12931, lengthbytes 51724, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/OpenDoor.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 47220
+FMOD: CodecWav::parseRIFF            : chunk : id data size 47184
+FMOD: CodecWav::parseRIFF            : offset = 47220 / 47220
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 11796 samples, lengthbytes 47184
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 11796, lengthbytes 47184, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/IntoEntry.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 121628
+FMOD: CodecWav::parseRIFF            : chunk : id data size 121592
+FMOD: CodecWav::parseRIFF            : offset = 121628 / 121628
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 30398 samples, lengthbytes 121592
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 30398, lengthbytes 121592, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Fall.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Coin.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 67184
+FMOD: CodecWav::parseRIFF            : chunk : id data size 67148
+FMOD: CodecWav::parseRIFF            : offset = 67184 / 67184
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 16787 samples, lengthbytes 67148
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 16787, lengthbytes 67148, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Inn.mp3 : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 94464 samples, lengthbytes 33436
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 94464, lengthbytes 33436, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/GotoTank.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 49036
+FMOD: CodecWav::parseRIFF            : chunk : id data size 49000
+FMOD: CodecWav::parseRIFF            : offset = 49036 / 49036
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/GetItem.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 65368
+FMOD: CodecWav::parseRIFF            : chunk : id data size 65332
+FMOD: CodecWav::parseRIFF            : offset = 65368 / 65368
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 16333 samples, lengthbytes 65332
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 16333, lengthbytes 65332, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/StartBattle.mp3 : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 93312 samples, lengthbytes 33018
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 93312, lengthbytes 33018, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/EnemyAppear.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 49036
+FMOD: CodecWav::parseRIFF            : chunk : id data size 49000
+FMOD: CodecWav::parseRIFF            : offset = 49036 / 49036
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Escape.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 89868
+FMOD: CodecWav::parseRIFF            : chunk : id data size 89832
+FMOD: CodecWav::parseRIFF            : offset = 89868 / 89868
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Fail.mp3 : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 498816 samples, lengthbytes 180140
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 498816, lengthbytes 180140, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Winning.mp3 : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 118656 samples, lengthbytes 42213
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 118656, lengthbytes 42213, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/Disappear.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 89868
+FMOD: CodecWav::parseRIFF            : chunk : id data size 89832
+FMOD: CodecWav::parseRIFF            : offset = 89868 / 89868
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 176400
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 4
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/LevelUp.mp3 : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 224640 samples, lengthbytes 80666
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 224640, lengthbytes 80666, channels 2, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Body.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Body_End.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Cannon.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Cannon_End.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 176392
+FMOD: CodecWav::parseRIFF            : chunk : id data size 176356
+FMOD: CodecWav::parseRIFF            : offset = 176392 / 176392
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 88178 samples, lengthbytes 176356
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 88178, lengthbytes 176356, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Fire.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Fire_End.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Sling.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Sling_End.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Sfx/WT_Gun.wav : mode 00000000
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: CodecWav::parseRIFF            : chunk : id fmt  size 16
+FMOD: CodecWav::parseRIFF            : offset = 28 / 88192
+FMOD: CodecWav::parseRIFF            : chunk : id data size 88156
+FMOD: CodecWav::parseRIFF            : offset = 88192 / 88192
+FMOD: CodecWav::openInternal         : mSrcFormat->wFormatTag = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nChannels = 1
+FMOD: CodecWav::openInternal         : mSrcFormat->nSamplesPerSec = 44100
+FMOD: CodecWav::openInternal         : mSrcFormat->nAvgBytesPerSec = 88200
+FMOD: CodecWav::openInternal         : mSrcFormat->nBlockAlign = 2
+FMOD: CodecWav::openInternal         : mSrcFormat->wBitsPerSample = 16
+FMOD: CodecWav::openInternal         : mSrcFormat->cbSize = 0
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
+FMOD: SystemI::createSoundInternal   : creating subsound 0/0
+FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/Startup.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 798302
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0030FC78
+FMOD: SystemI::createSample          : mSoftware = 0030FC78
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 798302, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: Thread::initThread             :     Initializing FMOD file thread.  priority 1
+FMOD: Thread::initThread             :     - Stacksize 8192.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               :     * FMOD file thread started
+FMOD: Thread::initThread             :     done.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : Select.wav (05DBCEB0)
+FMOD: SoundI::release                : release codec. (05DBCEB0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05DBCEB0)
+FMOD: SoundI::release                : done (05DBCEB0)
+FMOD: SoundI::release                : Confirm.wav (05DC2FE8)
+FMOD: SoundI::release                : release codec. (05DC2FE8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05DC2FE8)
+FMOD: SoundI::release                : done (05DC2FE8)
+FMOD: SoundI::release                : OpenDoor.wav (05DCFF08)
+FMOD: SoundI::release                : release codec. (05DCFF08)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05DCFF08)
+FMOD: SoundI::release                : done (05DCFF08)
+FMOD: SoundI::release                : IntoEntry.wav (05DDBCA0)
+FMOD: SoundI::release                : release codec. (05DDBCA0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05DDBCA0)
+FMOD: SoundI::release                : done (05DDBCA0)
+FMOD: SoundI::release                : Fall.wav (05DF9CE0)
+FMOD: SoundI::release                : release codec. (05DF9CE0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05DF9CE0)
+FMOD: SoundI::release                : done (05DF9CE0)
+FMOD: SoundI::release                : Coin.wav (05E0FA78)
+FMOD: SoundI::release                : release codec. (05E0FA78)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05E0FA78)
+FMOD: SoundI::release                : done (05E0FA78)
+FMOD: SoundI::release                : Inn.mp3 (076C1C68)
+FMOD: SoundI::release                : release codec. (076C1C68)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (076C1C68)
+FMOD: SoundI::release                : done (076C1C68)
+FMOD: SoundI::release                : GotoTank.wav (0771E5B0)
+FMOD: SoundI::release                : release codec. (0771E5B0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0771E5B0)
+FMOD: SoundI::release                : done (0771E5B0)
+FMOD: SoundI::release                : GetItem.wav (0772AA60)
+FMOD: SoundI::release                : release codec. (0772AA60)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0772AA60)
+FMOD: SoundI::release                : done (0772AA60)
+FMOD: SoundI::release                : StartBattle.mp3 (0773AE60)
+FMOD: SoundI::release                : release codec. (0773AE60)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0773AE60)
+FMOD: SoundI::release                : done (0773AE60)
+FMOD: SoundI::release                : EnemyAppear.wav (077965A8)
+FMOD: SoundI::release                : release codec. (077965A8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (077965A8)
+FMOD: SoundI::release                : done (077965A8)
+FMOD: SoundI::release                : Escape.wav (077A2A58)
+FMOD: SoundI::release                : release codec. (077A2A58)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (077A2A58)
+FMOD: SoundI::release                : done (077A2A58)
+FMOD: SoundI::release                : Fail.mp3 (05E1FBF8)
+FMOD: SoundI::release                : release codec. (05E1FBF8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05E1FBF8)
+FMOD: SoundI::release                : done (05E1FBF8)
+FMOD: SoundI::release                : Winning.mp3 (077BEAC8)
+FMOD: SoundI::release                : release codec. (077BEAC8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (077BEAC8)
+FMOD: SoundI::release                : done (077BEAC8)
+FMOD: SoundI::release                : Disappear.wav (07832DD8)
+FMOD: SoundI::release                : release codec. (07832DD8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (07832DD8)
+FMOD: SoundI::release                : done (07832DD8)
+FMOD: SoundI::release                : LevelUp.mp3 (0784ED08)
+FMOD: SoundI::release                : release codec. (0784ED08)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0784ED08)
+FMOD: SoundI::release                : done (0784ED08)
+FMOD: SoundI::release                : WT_Body.wav (0784F1D8)
+FMOD: SoundI::release                : release codec. (0784F1D8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0784F1D8)
+FMOD: SoundI::release                : done (0784F1D8)
+FMOD: SoundI::release                : WT_Body_End.wav (07868D00)
+FMOD: SoundI::release                : release codec. (07868D00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (07868D00)
+FMOD: SoundI::release                : done (07868D00)
+FMOD: SoundI::release                : WT_Cannon.wav (07868E28)
+FMOD: SoundI::release                : release codec. (07868E28)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (07868E28)
+FMOD: SoundI::release                : done (07868E28)
+FMOD: SoundI::release                : WT_Cannon_End.wav (07868F50)
+FMOD: SoundI::release                : release codec. (07868F50)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (07868F50)
+FMOD: SoundI::release                : done (07868F50)
+FMOD: SoundI::release                : WT_Fire.wav (07869078)
+FMOD: SoundI::release                : release codec. (07869078)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (07869078)
+FMOD: SoundI::release                : done (07869078)
+FMOD: SoundI::release                : WT_Fire_End.wav (078691A0)
+FMOD: SoundI::release                : release codec. (078691A0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (078691A0)
+FMOD: SoundI::release                : done (078691A0)
+FMOD: SoundI::release                : WT_Sling.wav (078692C8)
+FMOD: SoundI::release                : release codec. (078692C8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (078692C8)
+FMOD: SoundI::release                : done (078692C8)
+FMOD: SoundI::release                : WT_Sling_End.wav (078693F0)
+FMOD: SoundI::release                : release codec. (078693F0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (078693F0)
+FMOD: SoundI::release                : done (078693F0)
+FMOD: SoundI::release                : WT_Gun.wav (07869518)
+FMOD: SoundI::release                : release codec. (07869518)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (07869518)
+FMOD: SoundI::release                : done (07869518)
+FMOD: SystemI::close                 : 
+FMOD: SystemI::close                 : Stop all sounds
+FMOD: Thread::callback               : * FMOD stream thread finished
+FMOD: Thread::close                  : FMOD stream thread thread destroyed
+FMOD: SystemI::close                 : Stream thread destroyed
+FMOD: SystemI::close                 : Shut down output.
+FMOD: Thread::callback               : * FMOD mixer thread finished
+FMOD: Thread::close                  : FMOD mixer thread thread destroyed
+FMOD: SystemI::close                 : Free master channel group.
+FMOD: SystemI::close                 : Remove 'master' sound group.
+FMOD: SystemI::close                 : Free software output.
+FMOD: SystemI::close                 : Free emulated output.
+FMOD: SystemI::close                 : Free channel pool.
+FMOD: SystemI::close                 : Remove miscllaneous DSP stuff.
+FMOD: Global::decRef                 : Shut down streamer and FMOD_NONBLOCKING and FileSystem thread.
+FMOD: Global::decRef                 : Shut down profiler.
+FMOD: Global::decRef                 : Shut down file system.
+FMOD: Thread::callback               : * FMOD file thread finished
+FMOD: Thread::close                  : FMOD file thread thread destroyed
+FMOD: SystemI::close                 : done.
+

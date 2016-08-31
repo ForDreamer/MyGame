@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Main">
+      <UniqueIdentifier>{9913d8f3-2d01-4384-a9b8-95cea9f6b23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game">
+      <UniqueIdentifier>{7cd09435-1577-4fd0-9653-6701e2c20755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine">
+      <UniqueIdentifier>{b48e31c6-1a81-46fd-87c9-fbd70876608b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game\Battle">
+      <UniqueIdentifier>{adeb9f05-3885-4855-ab07-20b497c49f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game\Manager">
+      <UniqueIdentifier>{e8ee50d1-5688-452c-be35-a51c968efa76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game\MapEngine">
+      <UniqueIdentifier>{0e5551c7-d10e-419f-b138-d1da225c93be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game\Scences">
+      <UniqueIdentifier>{18607142-02b7-4485-99c1-e888a2d5fb11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game\UI">
+      <UniqueIdentifier>{f1c0662e-04ef-4daa-a1f9-10a5ebfcd49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\FModSound">
+      <UniqueIdentifier>{ca834d92-3fae-461e-ab96-50c8bb89e3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Hud">
+      <UniqueIdentifier>{1832e61c-4782-4b68-b91b-f81ffaf747c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Manager">
+      <UniqueIdentifier>{7bda05b1-3bca-4392-9b55-7fe5169c9a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Misc">
+      <UniqueIdentifier>{bf774e51-cdc3-4ee6-9492-3a770397b9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Scene">
+      <UniqueIdentifier>{dcffd4c3-ffe8-4d09-bef4-3a4ace82d040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Main\Global.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Main\MainApp.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BattleActor.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BattleManager.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BattleUIMgr.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BatUIAssistList.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BatUIAtkList.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BatUIHumanMain.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BatUIInfoBox.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BatUITankMain.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BatUITextBox.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Battle\BatUIToolList.cpp">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Manager\BattleTankMgr.cpp">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Manager\CharacterMgr.cpp">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Manager\DialogSystemMgr.cpp">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Manager\EquipMgr.cpp">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Manager\GameStatusMgr.cpp">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Manager\ItemMgr.cpp">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Manager\SaveLoadMgr.cpp">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapActor.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapCamera.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapDetector.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapManager.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapNode.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapObject.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapRenderObj.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\MapEngine\MapTrigger.cpp">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\UI\UIBase.cpp">
+      <Filter>源文件\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\UI\UIMain.cpp">
+      <Filter>源文件\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\UI\UIManager.cpp">
+      <Filter>源文件\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\UI\UIMisc.cpp">
+      <Filter>源文件\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\UI\UITop.cpp">
+      <Filter>源文件\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Scenes\BattleScene.cpp">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Scenes\EndingScene.cpp">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Scenes\InnScene.cpp">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Scenes\MapNavigationScene.cpp">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Scenes\NameSettingScene.cpp">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Scenes\StartupScene.cpp">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game\Scenes\WanterScene.cpp">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\FmodSound\FmodSound.cpp">
+      <Filter>源文件\Engine\FModSound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Hud\HudObject.cpp">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Hud\HudObjGroup.cpp">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Hud\Sprite.cpp">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Hud\Text.cpp">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Manager\RenderManager.cpp">
+      <Filter>源文件\Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Manager\TextureManager.cpp">
+      <Filter>源文件\Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Scene\Fader.cpp">
+      <Filter>源文件\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Scene\Scene.cpp">
+      <Filter>源文件\Engine\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Main\Global.h">
+      <Filter>源文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BattleActor.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BattleConfig.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BattleManager.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BattleUIMgr.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BatUIAssistList.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BatUIAtkList.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BatUIHumanMain.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BatUIInfoBox.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BatUITankMain.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BatUITextBox.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Battle\BatUIToolList.h">
+      <Filter>源文件\Game\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\BattleTankMgr.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\CharacterMgr.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\DialogData.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\DialogSystemMgr.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\EquipMgr.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\GameStatusMgr.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\ItemMgr.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Manager\SaveLoadMgr.h">
+      <Filter>源文件\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapActor.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapCamera.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapConfig.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapDetector.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapManager.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapNode.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapObject.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapRenderObj.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapTexDef.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\MapEngine\MapTrigger.h">
+      <Filter>源文件\Game\MapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\UI\UIBase.h">
+      <Filter>源文件\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\UI\UIMain.h">
+      <Filter>源文件\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\UI\UIManager.h">
+      <Filter>源文件\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\UI\UIMisc.h">
+      <Filter>源文件\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\UI\UITop.h">
+      <Filter>源文件\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Scenes\BattleScene.h">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Scenes\EndingScene.h">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Scenes\InnScene.h">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Scenes\MapNavigationScene.h">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Scenes\NameSettingScene.h">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Scenes\StartupScene.h">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game\Scenes\WanterScene.h">
+      <Filter>源文件\Game\Scences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\FmodSound\FmodSound.h">
+      <Filter>源文件\Engine\FModSound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Hud\HudObject.h">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Hud\HudObjGroup.h">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Hud\Sprite.h">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Hud\Text.h">
+      <Filter>源文件\Engine\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Manager\RenderManager.h">
+      <Filter>源文件\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Manager\TextureManager.h">
+      <Filter>源文件\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Misc\PreDefine.h">
+      <Filter>源文件\Engine\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Misc\Singleton.h">
+      <Filter>源文件\Engine\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Scene\Fader.h">
+      <Filter>源文件\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Scene\Scene.h">
+      <Filter>源文件\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="damotouicon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
