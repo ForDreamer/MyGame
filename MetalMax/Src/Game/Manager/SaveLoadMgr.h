@@ -163,6 +163,7 @@ struct SaveData
 	SLEquipInfo equipInfo;
 
 	// To Do: refactor use oop
+	//÷ÿ÷√
 	void Reset(void)
 	{
 		mapInfo.Reset();
@@ -172,6 +173,7 @@ struct SaveData
 		itemInfo.Reset();
 		equipInfo.Reset();
 	}
+	//±£¥Ê
 	void SaveFromGame(void)
 	{
 		mapInfo.SaveFromGame();
@@ -181,6 +183,7 @@ struct SaveData
 		itemInfo.SaveFromGame();
 		equipInfo.SaveFromGame();
 	}
+	//∂¡»°
 	void LoadToGame(void)
 	{
 		mapInfo.LoadToGame();

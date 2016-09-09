@@ -55,8 +55,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 5898 samples, lengthbytes 23592
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 5898, lengthbytes 23592, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -86,8 +86,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12931 samples, lengthbytes 51724
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 12931, lengthbytes 51724, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -117,8 +117,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 11796 samples, lengthbytes 47184
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 11796, lengthbytes 47184, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -148,8 +148,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 30398 samples, lengthbytes 121592
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 30398, lengthbytes 121592, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -179,8 +179,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -210,8 +210,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 16787 samples, lengthbytes 67148
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 16787, lengthbytes 67148, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -230,8 +230,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 94464 samples, lengthbytes 33436
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 94464, lengthbytes 33436, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -261,8 +261,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -292,8 +292,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 16333 samples, lengthbytes 65332
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 16333, lengthbytes 65332, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -312,8 +312,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 93312 samples, lengthbytes 33018
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 93312, lengthbytes 33018, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -343,8 +343,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -374,8 +374,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -394,8 +394,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 498816 samples, lengthbytes 180140
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 498816, lengthbytes 180140, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -414,8 +414,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 118656 samples, lengthbytes 42213
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 118656, lengthbytes 42213, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -445,8 +445,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -465,8 +465,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 224640 samples, lengthbytes 80666
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 224640, lengthbytes 80666, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -496,8 +496,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -527,8 +527,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -558,8 +558,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -589,8 +589,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 88178 samples, lengthbytes 176356
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 88178, lengthbytes 176356, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -620,8 +620,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -651,8 +651,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -682,8 +682,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -713,8 +713,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -744,8 +744,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -764,8 +764,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
 FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
 FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 798302
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
 FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 798302, channels 2, format 2, freq 44100, mode 0000008a
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -780,174 +780,38 @@ FMOD: Thread::initThread             :     done.
 FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
 FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
 
-FMOD: SoundI::release                : Select.wav (068BCEB0)
-FMOD: SoundI::release                : release codec. (068BCEB0)
+FMOD: SoundI::release                : Startup.mp3 (04FEC670)
+FMOD: SoundI::release                : remove stream samples. (04FEC670)
+FMOD: SoundI::release                :      (07199640)
+FMOD: SoundI::release                :     free this. (07199640)
+FMOD: SoundI::release                :     done (07199640)
+FMOD: SoundI::release                : release codec. (04FEC670)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 04FE7DB0)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (04FEC670)
+FMOD: SoundI::release                : done (04FEC670)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/NameSetting.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068BCEB0)
-FMOD: SoundI::release                : done (068BCEB0)
-FMOD: SoundI::release                : Confirm.wav (068C2FE8)
-FMOD: SoundI::release                : release codec. (068C2FE8)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068C2FE8)
-FMOD: SoundI::release                : done (068C2FE8)
-FMOD: SoundI::release                : OpenDoor.wav (068CFF08)
-FMOD: SoundI::release                : release codec. (068CFF08)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068CFF08)
-FMOD: SoundI::release                : done (068CFF08)
-FMOD: SoundI::release                : IntoEntry.wav (068DBCA0)
-FMOD: SoundI::release                : release codec. (068DBCA0)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068DBCA0)
-FMOD: SoundI::release                : done (068DBCA0)
-FMOD: SoundI::release                : Fall.wav (068F9CE0)
-FMOD: SoundI::release                : release codec. (068F9CE0)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068F9CE0)
-FMOD: SoundI::release                : done (068F9CE0)
-FMOD: SoundI::release                : Coin.wav (0690FA78)
-FMOD: SoundI::release                : release codec. (0690FA78)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0690FA78)
-FMOD: SoundI::release                : done (0690FA78)
-FMOD: SoundI::release                : Inn.mp3 (07071C68)
-FMOD: SoundI::release                : release codec. (07071C68)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07071C68)
-FMOD: SoundI::release                : done (07071C68)
-FMOD: SoundI::release                : GotoTank.wav (070CE5B0)
-FMOD: SoundI::release                : release codec. (070CE5B0)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (070CE5B0)
-FMOD: SoundI::release                : done (070CE5B0)
-FMOD: SoundI::release                : GetItem.wav (070DAA60)
-FMOD: SoundI::release                : release codec. (070DAA60)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (070DAA60)
-FMOD: SoundI::release                : done (070DAA60)
-FMOD: SoundI::release                : StartBattle.mp3 (070EAE60)
-FMOD: SoundI::release                : release codec. (070EAE60)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (070EAE60)
-FMOD: SoundI::release                : done (070EAE60)
-FMOD: SoundI::release                : EnemyAppear.wav (071465A8)
-FMOD: SoundI::release                : release codec. (071465A8)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071465A8)
-FMOD: SoundI::release                : done (071465A8)
-FMOD: SoundI::release                : Escape.wav (07152A58)
-FMOD: SoundI::release                : release codec. (07152A58)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07152A58)
-FMOD: SoundI::release                : done (07152A58)
-FMOD: SoundI::release                : Fail.mp3 (0691FBF8)
-FMOD: SoundI::release                : release codec. (0691FBF8)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0691FBF8)
-FMOD: SoundI::release                : done (0691FBF8)
-FMOD: SoundI::release                : Winning.mp3 (0716EAC8)
-FMOD: SoundI::release                : release codec. (0716EAC8)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0716EAC8)
-FMOD: SoundI::release                : done (0716EAC8)
-FMOD: SoundI::release                : Disappear.wav (071E2DD8)
-FMOD: SoundI::release                : release codec. (071E2DD8)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071E2DD8)
-FMOD: SoundI::release                : done (071E2DD8)
-FMOD: SoundI::release                : LevelUp.mp3 (071FED08)
-FMOD: SoundI::release                : release codec. (071FED08)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071FED08)
-FMOD: SoundI::release                : done (071FED08)
-FMOD: SoundI::release                : WT_Body.wav (071FF1D8)
-FMOD: SoundI::release                : release codec. (071FF1D8)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071FF1D8)
-FMOD: SoundI::release                : done (071FF1D8)
-FMOD: SoundI::release                : WT_Body_End.wav (07218D00)
-FMOD: SoundI::release                : release codec. (07218D00)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07218D00)
-FMOD: SoundI::release                : done (07218D00)
-FMOD: SoundI::release                : WT_Cannon.wav (07218E28)
-FMOD: SoundI::release                : release codec. (07218E28)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07218E28)
-FMOD: SoundI::release                : done (07218E28)
-FMOD: SoundI::release                : WT_Cannon_End.wav (07218F50)
-FMOD: SoundI::release                : release codec. (07218F50)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07218F50)
-FMOD: SoundI::release                : done (07218F50)
-FMOD: SoundI::release                : WT_Fire.wav (07219078)
-FMOD: SoundI::release                : release codec. (07219078)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07219078)
-FMOD: SoundI::release                : done (07219078)
-FMOD: SoundI::release                : WT_Fire_End.wav (072191A0)
-FMOD: SoundI::release                : release codec. (072191A0)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (072191A0)
-FMOD: SoundI::release                : done (072191A0)
-FMOD: SoundI::release                : WT_Sling.wav (072192C8)
-FMOD: SoundI::release                : release codec. (072192C8)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (072192C8)
-FMOD: SoundI::release                : done (072192C8)
-FMOD: SoundI::release                : WT_Sling_End.wav (072193F0)
-FMOD: SoundI::release                : release codec. (072193F0)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (072193F0)
-FMOD: SoundI::release                : done (072193F0)
-FMOD: SoundI::release                : WT_Gun.wav (07219518)
-FMOD: SoundI::release                : release codec. (07219518)
-FMOD: Codec::release                 : 
-FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07219518)
-FMOD: SoundI::release                : done (07219518)
-FMOD: SystemI::close                 : 
-FMOD: SystemI::close                 : Stop all sounds
-FMOD: Thread::callback               : * FMOD stream thread finished
-FMOD: Thread::close                  : FMOD stream thread thread destroyed
-FMOD: SystemI::close                 : Stream thread destroyed
-FMOD: SystemI::close                 : Shut down output.
-FMOD: Thread::callback               : * FMOD mixer thread finished
-FMOD: Thread::close                  : FMOD mixer thread thread destroyed
-FMOD: SystemI::close                 : Free master channel group.
-FMOD: SystemI::close                 : Remove 'master' sound group.
-FMOD: SystemI::close                 : Free software output.
-FMOD: SystemI::close                 : Free emulated output.
-FMOD: SystemI::close                 : Free channel pool.
-FMOD: SystemI::close                 : Remove miscllaneous DSP stuff.
-FMOD: Global::decRef                 : Shut down streamer and FMOD_NONBLOCKING and FileSystem thread.
-FMOD: Global::decRef                 : Shut down profiler.
-FMOD: Global::decRef                 : Shut down file system.
-FMOD: Thread::callback               : * FMOD file thread finished
-FMOD: Thread::close                  : FMOD file thread thread destroyed
-FMOD: SystemI::close                 : done.
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 444708
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 003AFC80
+FMOD: SystemI::createSample          : mSoftware = 003AFC80
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 444708, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
 

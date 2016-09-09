@@ -39,7 +39,9 @@ SceneManager::~SceneManager(void)
 		spFader = NULL;
 	}
 }
-
+/************************************************************************/
+/* 根据ID设置new场景                                                      */
+/************************************************************************/
 void SceneManager::SetFristScene(SceneID id)
 {
 	if(!spFader)
@@ -68,8 +70,8 @@ void SceneManager::ActivateNextScene(void)
 	// To Do: use factory mode
 	switch(mNextSceneId)
 	{
-		case SCENE_STARTUP: mpSceneActive = new StartupScene(mNextSceneId); break;
-		case SCENE_NAMESETTING: mpSceneActive = new NameSettingScene(mNextSceneId); break;
+		case SCENE_STARTUP: mpSceneActive = new StartupScene(mNextSceneId); break;		
+		case SCENE_NAMESETTING: mpSceneActive = new NameSettingScene(mNextSceneId); break;	
 		case SCENE_MAPNAVIGATION: mpSceneActive = new MapNavigationScene(mNextSceneId); break;
 		case SCENE_INN: mpSceneActive = new InnScene(mNextSceneId); break;
 		case SCENE_WANTER: mpSceneActive = new WanterScene(mNextSceneId); break;
@@ -85,7 +87,9 @@ void SceneManager::ActivateNextScene(void)
 	Global::ResetTimer();
 	spFader->TransitionOut();
 }
-
+/************************************************************************/
+/* 跳转场景                                                              */
+/************************************************************************/
 void SceneManager::ProcessScene(void)
 {
 	if(mpSceneActive)

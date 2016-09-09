@@ -226,7 +226,9 @@ bool TextureManager::LoadTextures(void)
 	}
 	return ret;
 }
-
+/************************************************************************/
+/* 加载系统的Textures资源                                                      */
+/************************************************************************/
 bool TextureManager::LoadSystemTextures(void)
 {
 	bool ret = true;
@@ -242,7 +244,9 @@ bool TextureManager::LoadSystemTextures(void)
 	}
 	return ret;
 }
-
+/************************************************************************/
+/* 加载世界Textures资源                                                   */
+/************************************************************************/
 bool TextureManager::LoadTileTextures(void)
 {
 	bool ret = true;
@@ -258,7 +262,9 @@ bool TextureManager::LoadTileTextures(void)
 	}
 	return ret;
 }
-
+/************************************************************************/
+/* 加载人物Textures资源													*/
+/************************************************************************/
 bool TextureManager::LoadActorTextures(void)
 {
 	bool ret = true;
@@ -274,7 +280,9 @@ bool TextureManager::LoadActorTextures(void)
 	}
 	return ret;
 }
-
+/************************************************************************/
+/* 加载操作UI Textures资源												*/
+/************************************************************************/
 bool TextureManager::LoadUITextures(void)
 {
 	bool ret = true;
@@ -290,7 +298,9 @@ bool TextureManager::LoadUITextures(void)
 	}
 	return ret;
 }
-
+/************************************************************************/
+/* 加载战斗画面Textures 资源												*/
+/************************************************************************/
 bool TextureManager::LoadBattleTextures(void)
 {
 	bool ret = true;

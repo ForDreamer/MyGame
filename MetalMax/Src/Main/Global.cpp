@@ -64,7 +64,7 @@ void Global::EndFrame(void)
 	}
 }
 /************************************************************************/
-/* 获取键盘的状态                                                         */
+/* 获取键盘输入的状态                                                         */
 /************************************************************************/
 HRESULT Global::GetDInputKeyBoardState(void)
 {
@@ -81,7 +81,9 @@ HRESULT Global::GetDInputKeyBoardState(void)
 
 	return S_OK;
 }
-
+/************************************************************************/
+/* 保存输入的信息                                                         */
+/************************************************************************/
 void Global::SavePrevKeyState(void)
 {
 	for(int i=0; i<256; i++)
@@ -127,7 +129,9 @@ bool Global::KeyPressed(BYTE key)
 	
 	return false;
 }
-
+/************************************************************************/
+/* 输出文字信息                                                           */
+/************************************************************************/
 void Global::PrintText(float x, float y, LPCSTR str, FontType type, DWORD color)
 {
 	// coordinate consistent with hud system
@@ -159,6 +163,9 @@ LRESULT CALLBACK Global::WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
 	return DefWindowProc(hwnd, msg, wParam, lParam);
 }
 
+/************************************************************************/
+/* 调用系统函数生成运行窗口                                                */
+/************************************************************************/
 bool Global::InitD3DWindow(void)
 {
 	HINSTANCE hInstance = GetModuleHandle(NULL);
@@ -240,7 +247,9 @@ bool Global::InitD3DWindow(void)
 	
 	return true;
 }
-
+/************************************************************************/
+/* 初始化Directx的输入                                                    */
+/************************************************************************/
 bool Global::InitDirectInput(void)
 {
 	DWORD dwCoopFlags = DISCL_NONEXCLUSIVE|DISCL_FOREGROUND;
@@ -280,7 +289,9 @@ bool Global::InitDirectInput(void)
 
 	return true;
 }
-
+/************************************************************************/
+/* 初始化显示的字体														*/
+/************************************************************************/
 bool Global::InitD3DXFont(FontType type)
 {
 	D3DXCreateSprite(gpD3DDevice, &gpTextSprite);
@@ -320,7 +331,9 @@ bool Global::InitD3DXFont(FontType type)
 
  	return true;
 }
-
+/************************************************************************/
+/* 初始化界面渲染状态                                                      */
+/************************************************************************/
 void Global::InitD3DRenderState(void)
 {
 	D3DXMATRIX matProj;
@@ -341,7 +354,9 @@ void Global::InitD3DRenderState(void)
 	GetDevice()->SetTextureStageState(0, D3DTSS_ALPHAARG2, D3DTA_DIFFUSE);
 	GetDevice()->SetTextureStageState(0, D3DTSS_ALPHAOP, D3DTOP_MODULATE);
 }
-
+/************************************************************************/
+/* 初始化界面，加载资源图片                                                                     */
+/************************************************************************/
 bool Global::Setup()
 {
 	srand((unsigned int)time(NULL));
@@ -432,16 +447,19 @@ void Global::Cleanup(void)
 	if(gpD3DDevice)
 		gpD3DDevice->Release();
 }
-
+/************************************************************************/
+/* 进入消息循环															*/
+/************************************************************************/
 void Global::EnterMsgLoop(void)
 {
 	MSG msg;
 	ZeroMemory(&msg, sizeof(MSG));
 	gTimer.SetupBaseTime();
 	SetWindowText(gHWnd, "MatalMax Release Ver 1.0");
-
+	
 	while(msg.message != WM_QUIT)
 	{
+		//判断选择的选项
 		if(PeekMessage(&msg, 0, 0, 0, PM_REMOVE))
 		{
 			TranslateMessage(&msg);

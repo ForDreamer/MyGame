@@ -51,7 +51,9 @@ static const char* sMusicFileNames[MAX_MUSIC_INDEX] =
 	"../Sound/Bgm/BossFight.mp3"
 };
 
-
+/************************************************************************/
+/* 初始化FMOD声音系统                                                     */
+/************************************************************************/
 bool FmodSound::InitFmodSound(void)
 {
 	

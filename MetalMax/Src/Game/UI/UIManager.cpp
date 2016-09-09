@@ -20,7 +20,9 @@ UIManager::UIManager(void)
 UIManager::~UIManager(void)
 {
 }
-
+/************************************************************************/
+/* 初始化UI界面元素														*/
+/************************************************************************/
 void UIManager::InitUIElements(void)
 {
 	for(int i=0; i<UIT_MAX; i++)

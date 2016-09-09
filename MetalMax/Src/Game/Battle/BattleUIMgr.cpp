@@ -22,7 +22,9 @@ BattleUIMgr::BattleUIMgr(void)
 BattleUIMgr::~BattleUIMgr(void)
 {
 }
-
+/************************************************************************/
+/* 初始化战斗UI元素                                                       */
+/************************************************************************/
 void BattleUIMgr::InitUIElements(void)
 {
 	for(int i=0; i<BATUI_MAX; i++)

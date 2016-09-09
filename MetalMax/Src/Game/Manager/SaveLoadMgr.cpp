@@ -287,14 +287,18 @@ SaveLoadMgr::SaveLoadMgr(void)
 SaveLoadMgr::~SaveLoadMgr(void)
 {
 }
-
+/************************************************************************/
+/* 保存游戏记录                                                           */
+/************************************************************************/
 bool SaveLoadMgr::Save(void)
 {
 	SaveSaveData_FromGame();
 	SaveSingleFile(sSaveFilename);
 	return true;
 }
-
+/************************************************************************/
+/* 加载游戏记录                                                           */
+/************************************************************************/
 bool SaveLoadMgr::Load(void)
 {
 	bool ret = LoadSingleFile(sSaveFilename);

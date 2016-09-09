@@ -88,9 +88,12 @@ void StartupScene::Release(void)
 	gTexMgr.ReleaseTextures();
 	gRenderMgr.ClearAll();
 }
-
+/************************************************************************/
+/* 开始界面跳转                                                           */
+/************************************************************************/
 void StartupScene::Update(void)
 {
+	//上键
 	if(Global::KeyDown(KEY_UP))
 	{
 		if(mSelectIndex > 0)
@@ -100,6 +103,7 @@ void StartupScene::Update(void)
 			FmodSound::PlaySnd(SND_SELECT);
 		}
 	}
+	//下键
 	else if(Global::KeyDown(KEY_DOWN))
 	{
 		if(mSelectIndex < 2)
@@ -109,9 +113,10 @@ void StartupScene::Update(void)
 			FmodSound::PlaySnd(SND_SELECT);
 		}
 	}
-
+	//确定按钮
 	if(Global::KeyDown(KEY_A))
 	{
+		//开始
 		if(mSelectIndex == 0)
 		{
 			gSceneMgr.SetNextScene(SCENE_NAMESETTING);
@@ -122,6 +127,7 @@ void StartupScene::Update(void)
 			gSaveLoadMgr.ResetSaveData();
 			gSaveLoadMgr.LoadSaveData_ToGame();
 		}
+		//继续
 		else if(mSelectIndex == 1)
 		{
 			if(mbHasSaveFile)
@@ -133,6 +139,7 @@ void StartupScene::Update(void)
 				gSaveLoadMgr.Load();
 			}
 		}
+		//退出
 		else if(mSelectIndex == 2)
 		{
 			DestroyWindow(Global::GetHWnd());
@@ -145,7 +152,7 @@ void StartupScene::ResetIconPos(void)
 	int posY = -56 - 45*mSelectIndex;
 	mIcon.SetPositionY((float)posY);
 }
-
+//开始游戏
 void StartupScene::StartGame(void)
 {
 	gUIMgr.CloseAllUI();
