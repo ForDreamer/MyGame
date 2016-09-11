@@ -1,0 +1,183 @@
+﻿  MainApp.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Global.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  UITop.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  UIMisc.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  UIManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  UIMain.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  UIBase.cpp
+  WanterScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  StartupScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NameSettingScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  MapNavigationScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  InnScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  EndingScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BattleScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  MapTrigger.cpp
+  MapRenderObj.cpp
+  MapObject.cpp
+  MapNode.cpp
+  MapManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  MapDetector.cpp
+  正在生成代码...
+f:\git代码\mygame\metalmax\src\game\mapengine\mapmanager.cpp(470): warning C4715: “MapManager::GetMapObjInfo”: 不是所有的控件路径都返回值
+  正在编译...
+  MapCamera.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  MapActor.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  SaveLoadMgr.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(35): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(39): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 5 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 6 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 7 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 8 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 9 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 10 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 11 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(89): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(123): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(123): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(123): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(123): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 5 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 6 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 7 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 8 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 9 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(164): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 10 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 5 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 6 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 7 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 8 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(209): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 5 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 6 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 7 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 8 拥有了类型“short *”
+  f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(265): note: 请考虑在格式字符串中使用“%hd”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 5 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 6 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 7 拥有了类型“bool *”
+f:\git代码\mygame\metalmax\src\game\manager\saveloadmgr.cpp(271): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 8 拥有了类型“bool *”
+  ItemMgr.cpp
+  GameStatusMgr.cpp
+  EquipMgr.cpp
+  DialogSystemMgr.cpp
+  CharacterMgr.cpp
+  BattleTankMgr.cpp
+  BatUIToolList.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BatUITextBox.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BatUITankMain.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BatUIInfoBox.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BatUIHumanMain.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BatUIAtkList.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BatUIAssistList.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BattleUIMgr.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BattleManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  BattleActor.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Scene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  正在生成代码...
+  正在编译...
+  Fader.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  TextureManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  RenderManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Text.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Sprite.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  HudObjGroup.cpp
+  HudObject.cpp
+  FmodSound.cpp
+f:\git代码\mygame\metalmax\src\engine\fmodsound\fmodsound.cpp(122): error C2664: “FMOD_RESULT FMOD::System::playSound(FMOD_CHANNELINDEX,FMOD::Sound *,bool,FMOD::Channel **)”: 无法将参数 1 从“FMOD::Sound *”转换为“FMOD_CHANNELINDEX”
+  f:\git代码\mygame\metalmax\src\engine\fmodsound\fmodsound.cpp(122): note: 没有使该转换得以执行的上下文
+f:\git代码\mygame\metalmax\src\engine\fmodsound\fmodsound.cpp(152): error C2664: “FMOD_RESULT FMOD::System::playSound(FMOD_CHANNELINDEX,FMOD::Sound *,bool,FMOD::Channel **)”: 无法将参数 1 从“FMOD::Sound *”转换为“FMOD_CHANNELINDEX”
+  f:\git代码\mygame\metalmax\src\engine\fmodsound\fmodsound.cpp(152): note: 没有使该转换得以执行的上下文
+  正在生成代码...

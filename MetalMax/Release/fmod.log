@@ -8,19 +8,19 @@ FMOD: SystemI::close                 : done.
 FMOD: SystemI::init                  : Set up software engine
 FMOD: OutputWASAPI::enumerate        : Enumerating...
 FMOD: OutputWASAPI::enumerate        : Initialise COM library.
+FMOD: OutputWASAPI::enumerate        : Found Driver: "lðh (Realtek High Definition Audio)".
+FMOD: OutputWASAPI::enumerate        : Found Driver: "¦KÎ (Realtek High Definition Audio)".
 FMOD: OutputWASAPI::enumerate        : Done.
 FMOD: OutputWASAPI::init             : Initialising...
-FMOD: OutputWASAPI::init             : No output sound devices found
-FMOD: OutputWASAPI::close            : Closing...
-FMOD: OutputWASAPI::close            : Done.
-FMOD: SystemI::init                  : No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
-FMOD: OutputWASAPI::close            : Closing...
-FMOD: OutputWASAPI::close            : Done.
-FMOD: OutputNoSound::init            : Initializing.
-FMOD: OutputNoSound::init            : Done.
-FMOD: OutputPolled::start            : Starting thread that automatically wakes up every 10 ms
-FMOD: Thread::initThread             : Initializing FMOD mixer thread.  priority 3
-FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: OutputWASAPI::init             : Forcing output channels to match Windows mix format: 2 channel(s)
+FMOD: OutputWASAPI::init             : Done.
+FMOD: Thread::initThread             : Initializing FMOD (WASAPI) feeder thread.  priority 0
+FMOD: Thread::initThread             : - Stacksize 0.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 0
+FMOD: Thread::callback               : * FMOD (WASAPI) feeder thread started
+FMOD: Thread::initThread             : done.
+FMOD: Thread::initThread             : Initializing FMOD mixer thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 00000000 : usesemaphore = 1 : sleeptime = 0
+FMOD: OutputWASAPI::feederUpdate     : WASAPI feeder thread set to 'Audio' characteristic
 FMOD: Thread::callback               : * FMOD mixer thread started
 FMOD: Thread::initThread             : done.
 FMOD: SystemI::init                  : Set up emulated output
@@ -55,8 +55,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 5898 samples, lengthbytes 23592
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 5898, lengthbytes 23592, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -86,8 +86,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12931 samples, lengthbytes 51724
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 12931, lengthbytes 51724, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -117,8 +117,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 11796 samples, lengthbytes 47184
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 11796, lengthbytes 47184, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -148,8 +148,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 30398 samples, lengthbytes 121592
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 30398, lengthbytes 121592, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -179,8 +179,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -210,8 +210,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 16787 samples, lengthbytes 67148
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 16787, lengthbytes 67148, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -230,8 +230,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 94464 samples, lengthbytes 33436
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 94464, lengthbytes 33436, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -261,8 +261,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -292,8 +292,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 16333 samples, lengthbytes 65332
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 16333, lengthbytes 65332, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -312,8 +312,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 93312 samples, lengthbytes 33018
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 93312, lengthbytes 33018, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -343,8 +343,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -374,8 +374,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -394,8 +394,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 498816 samples, lengthbytes 180140
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 498816, lengthbytes 180140, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -414,8 +414,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 118656 samples, lengthbytes 42213
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 118656, lengthbytes 42213, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -445,8 +445,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -465,8 +465,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 224640 samples, lengthbytes 80666
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 224640, lengthbytes 80666, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -496,8 +496,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -527,8 +527,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -558,8 +558,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -589,8 +589,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 88178 samples, lengthbytes 176356
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 88178, lengthbytes 176356, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -620,8 +620,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -651,8 +651,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -682,8 +682,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -713,8 +713,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -744,8 +744,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -764,8 +764,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
 FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
 FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 798302
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 0021FC80
-FMOD: SystemI::createSample          : mSoftware = 0021FC80
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
 FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 798302, channels 2, format 2, freq 44100, mode 0000008a
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -780,166 +780,1034 @@ FMOD: Thread::initThread             :     done.
 FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
 FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
 
-FMOD: SoundI::release                : Select.wav (068BCEB0)
-FMOD: SoundI::release                : release codec. (068BCEB0)
+FMOD: SoundI::release                : Startup.mp3 (05600250)
+FMOD: SoundI::release                : remove stream samples. (05600250)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05600250)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05600250)
+FMOD: SoundI::release                : done (05600250)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/NameSetting.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068BCEB0)
-FMOD: SoundI::release                : done (068BCEB0)
-FMOD: SoundI::release                : Confirm.wav (068C2FE8)
-FMOD: SoundI::release                : release codec. (068C2FE8)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 444708
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 444708, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : NameSetting.mp3 (05600138)
+FMOD: SoundI::release                : remove stream samples. (05600138)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05600138)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05600138)
+FMOD: SoundI::release                : done (05600138)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/TownTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068C2FE8)
-FMOD: SoundI::release                : done (068C2FE8)
-FMOD: SoundI::release                : OpenDoor.wav (068CFF08)
-FMOD: SoundI::release                : release codec. (068CFF08)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 447216
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 447216, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : TownTheme.mp3 (05600138)
+FMOD: SoundI::release                : remove stream samples. (05600138)
+FMOD: SoundI::release                :      (05C3C610)
+FMOD: SoundI::release                :     free this. (05C3C610)
+FMOD: SoundI::release                :     done (05C3C610)
+FMOD: SoundI::release                : release codec. (05600138)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05600138)
+FMOD: SoundI::release                : done (05600138)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068CFF08)
-FMOD: SoundI::release                : done (068CFF08)
-FMOD: SoundI::release                : IntoEntry.wav (068DBCA0)
-FMOD: SoundI::release                : release codec. (068DBCA0)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05600138)
+FMOD: SoundI::release                : remove stream samples. (05600138)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05600138)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05600138)
+FMOD: SoundI::release                : done (05600138)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/CaveTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068DBCA0)
-FMOD: SoundI::release                : done (068DBCA0)
-FMOD: SoundI::release                : Fall.wav (068F9CE0)
-FMOD: SoundI::release                : release codec. (068F9CE0)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 531226
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 531226, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : CaveTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (068F9CE0)
-FMOD: SoundI::release                : done (068F9CE0)
-FMOD: SoundI::release                : Coin.wav (0690FA78)
-FMOD: SoundI::release                : release codec. (0690FA78)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/BattleTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0690FA78)
-FMOD: SoundI::release                : done (0690FA78)
-FMOD: SoundI::release                : Inn.mp3 (07071C68)
-FMOD: SoundI::release                : release codec. (07071C68)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 528300
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 528300, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : BattleTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07071C68)
-FMOD: SoundI::release                : done (07071C68)
-FMOD: SoundI::release                : GotoTank.wav (070CE5B0)
-FMOD: SoundI::release                : release codec. (070CE5B0)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/BattleTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (070CE5B0)
-FMOD: SoundI::release                : done (070CE5B0)
-FMOD: SoundI::release                : GetItem.wav (070DAA60)
-FMOD: SoundI::release                : release codec. (070DAA60)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 528300
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 528300, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : BattleTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (070DAA60)
-FMOD: SoundI::release                : done (070DAA60)
-FMOD: SoundI::release                : StartBattle.mp3 (070EAE60)
-FMOD: SoundI::release                : release codec. (070EAE60)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/GateTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (070EAE60)
-FMOD: SoundI::release                : done (070EAE60)
-FMOD: SoundI::release                : EnemyAppear.wav (071465A8)
-FMOD: SoundI::release                : release codec. (071465A8)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 393717
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 393717, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : GateTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071465A8)
-FMOD: SoundI::release                : done (071465A8)
-FMOD: SoundI::release                : Escape.wav (07152A58)
-FMOD: SoundI::release                : release codec. (07152A58)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/BattleTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07152A58)
-FMOD: SoundI::release                : done (07152A58)
-FMOD: SoundI::release                : Fail.mp3 (0691FBF8)
-FMOD: SoundI::release                : release codec. (0691FBF8)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 528300
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 528300, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : BattleTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0691FBF8)
-FMOD: SoundI::release                : done (0691FBF8)
-FMOD: SoundI::release                : Winning.mp3 (0716EAC8)
-FMOD: SoundI::release                : release codec. (0716EAC8)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/TownTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0716EAC8)
-FMOD: SoundI::release                : done (0716EAC8)
-FMOD: SoundI::release                : Disappear.wav (071E2DD8)
-FMOD: SoundI::release                : release codec. (071E2DD8)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 447216
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 447216, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : TownTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/TownTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071E2DD8)
-FMOD: SoundI::release                : done (071E2DD8)
-FMOD: SoundI::release                : LevelUp.mp3 (071FED08)
-FMOD: SoundI::release                : release codec. (071FED08)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 447216
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 447216, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : TownTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071FED08)
-FMOD: SoundI::release                : done (071FED08)
-FMOD: SoundI::release                : WT_Body.wav (071FF1D8)
-FMOD: SoundI::release                : release codec. (071FF1D8)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/BattleTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (071FF1D8)
-FMOD: SoundI::release                : done (071FF1D8)
-FMOD: SoundI::release                : WT_Body_End.wav (07218D00)
-FMOD: SoundI::release                : release codec. (07218D00)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 528300
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 528300, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : BattleTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C298)
+FMOD: SoundI::release                :     free this. (05C3C298)
+FMOD: SoundI::release                :     done (05C3C298)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07218D00)
-FMOD: SoundI::release                : done (07218D00)
-FMOD: SoundI::release                : WT_Cannon.wav (07218E28)
-FMOD: SoundI::release                : release codec. (07218E28)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/TownTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07218E28)
-FMOD: SoundI::release                : done (07218E28)
-FMOD: SoundI::release                : WT_Cannon_End.wav (07218F50)
-FMOD: SoundI::release                : release codec. (07218F50)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 447216
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 447216, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : TownTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/TownTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07218F50)
-FMOD: SoundI::release                : done (07218F50)
-FMOD: SoundI::release                : WT_Fire.wav (07219078)
-FMOD: SoundI::release                : release codec. (07219078)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 447216
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 447216, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : TownTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CF50)
+FMOD: SoundI::release                :     free this. (05C3CF50)
+FMOD: SoundI::release                :     done (05C3CF50)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/WorldTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07219078)
-FMOD: SoundI::release                : done (07219078)
-FMOD: SoundI::release                : WT_Fire_End.wav (072191A0)
-FMOD: SoundI::release                : release codec. (072191A0)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 640731
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 640731, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : WorldTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3CE28)
+FMOD: SoundI::release                :     free this. (05C3CE28)
+FMOD: SoundI::release                :     done (05C3CE28)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/CaveTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (072191A0)
-FMOD: SoundI::release                : done (072191A0)
-FMOD: SoundI::release                : WT_Sling.wav (072192C8)
-FMOD: SoundI::release                : release codec. (072192C8)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 531226
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 531226, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : CaveTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/BattleTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (072192C8)
-FMOD: SoundI::release                : done (072192C8)
-FMOD: SoundI::release                : WT_Sling_End.wav (072193F0)
-FMOD: SoundI::release                : release codec. (072193F0)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 528300
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 528300, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : BattleTheme.mp3 (05D28E00)
+FMOD: SoundI::release                : remove stream samples. (05D28E00)
+FMOD: SoundI::release                :      (05C3C4E8)
+FMOD: SoundI::release                :     free this. (05C3C4E8)
+FMOD: SoundI::release                :     done (05C3C4E8)
+FMOD: SoundI::release                : release codec. (05D28E00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 055FAE88)
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05D28E00)
+FMOD: SoundI::release                : done (05D28E00)
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/CaveTheme.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (072193F0)
-FMOD: SoundI::release                : done (072193F0)
-FMOD: SoundI::release                : WT_Gun.wav (07219518)
-FMOD: SoundI::release                : release codec. (07219518)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 531226
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 531226, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SystemI::createSoundInternal   : filename = ../Sound/Bgm/Startup.mp3 : mode 0000008a
+FMOD: SystemI::createSoundInternal   : 18 codecs found.  Scan all until one succeeds
+FMOD: SystemI::createSoundInternal   : Scan for tags.
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07219518)
-FMOD: SoundI::release                : done (07219518)
+FMOD: CodecMPEG::openInternal        : attempting to open as MPEG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
+FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 798302
+FMOD: SystemI::createSample          : subsamples = 1, channels = 2
+FMOD: SystemI::createSample          : subsample 0.  output = 0270EAA0
+FMOD: SystemI::createSample          : mSoftware = 0270EAA0
+FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 798302, channels 2, format 2, freq 44100, mode 0000008a
+FMOD: OutputSoftware::createSample   : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
+
+FMOD: SoundI::release                : Select.wav (05600950)
+FMOD: SoundI::release                : release codec. (05600950)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05600950)
+FMOD: SoundI::release                : done (05600950)
+FMOD: SoundI::release                : Confirm.wav (05606E90)
+FMOD: SoundI::release                : release codec. (05606E90)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05606E90)
+FMOD: SoundI::release                : done (05606E90)
+FMOD: SoundI::release                : OpenDoor.wav (05613DB0)
+FMOD: SoundI::release                : release codec. (05613DB0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05613DB0)
+FMOD: SoundI::release                : done (05613DB0)
+FMOD: SoundI::release                : IntoEntry.wav (0561FB10)
+FMOD: SoundI::release                : release codec. (0561FB10)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0561FB10)
+FMOD: SoundI::release                : done (0561FB10)
+FMOD: SoundI::release                : Fall.wav (0563DB50)
+FMOD: SoundI::release                : release codec. (0563DB50)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0563DB50)
+FMOD: SoundI::release                : done (0563DB50)
+FMOD: SoundI::release                : Coin.wav (056538E8)
+FMOD: SoundI::release                : release codec. (056538E8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (056538E8)
+FMOD: SoundI::release                : done (056538E8)
+FMOD: SoundI::release                : Inn.mp3 (05669F80)
+FMOD: SoundI::release                : release codec. (05669F80)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05669F80)
+FMOD: SoundI::release                : done (05669F80)
+FMOD: SoundI::release                : GotoTank.wav (05AFC878)
+FMOD: SoundI::release                : release codec. (05AFC878)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05AFC878)
+FMOD: SoundI::release                : done (05AFC878)
+FMOD: SoundI::release                : GetItem.wav (05AFCD80)
+FMOD: SoundI::release                : release codec. (05AFCD80)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05AFCD80)
+FMOD: SoundI::release                : done (05AFCD80)
+FMOD: SoundI::release                : StartBattle.mp3 (05B0D180)
+FMOD: SoundI::release                : release codec. (05B0D180)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05B0D180)
+FMOD: SoundI::release                : done (05B0D180)
+FMOD: SoundI::release                : EnemyAppear.wav (05B688C8)
+FMOD: SoundI::release                : release codec. (05B688C8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05B688C8)
+FMOD: SoundI::release                : done (05B688C8)
+FMOD: SoundI::release                : Escape.wav (05B74D78)
+FMOD: SoundI::release                : release codec. (05B74D78)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05B74D78)
+FMOD: SoundI::release                : done (05B74D78)
+FMOD: SoundI::release                : Fail.mp3 (05B90CA8)
+FMOD: SoundI::release                : release codec. (05B90CA8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05B90CA8)
+FMOD: SoundI::release                : done (05B90CA8)
+FMOD: SoundI::release                : Winning.mp3 (05B95A90)
+FMOD: SoundI::release                : release codec. (05B95A90)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05B95A90)
+FMOD: SoundI::release                : done (05B95A90)
+FMOD: SoundI::release                : Disappear.wav (05C09DD8)
+FMOD: SoundI::release                : release codec. (05C09DD8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C09DD8)
+FMOD: SoundI::release                : done (05C09DD8)
+FMOD: SoundI::release                : LevelUp.mp3 (0567E120)
+FMOD: SoundI::release                : release codec. (0567E120)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0567E120)
+FMOD: SoundI::release                : done (0567E120)
+FMOD: SoundI::release                : WT_Body.wav (0567E628)
+FMOD: SoundI::release                : release codec. (0567E628)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0567E628)
+FMOD: SoundI::release                : done (0567E628)
+FMOD: SoundI::release                : WT_Body_End.wav (05C3C738)
+FMOD: SoundI::release                : release codec. (05C3C738)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3C738)
+FMOD: SoundI::release                : done (05C3C738)
+FMOD: SoundI::release                : WT_Cannon.wav (05C3C860)
+FMOD: SoundI::release                : release codec. (05C3C860)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3C860)
+FMOD: SoundI::release                : done (05C3C860)
+FMOD: SoundI::release                : WT_Cannon_End.wav (05C3C988)
+FMOD: SoundI::release                : release codec. (05C3C988)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3C988)
+FMOD: SoundI::release                : done (05C3C988)
+FMOD: SoundI::release                : WT_Fire.wav (05C3CAB0)
+FMOD: SoundI::release                : release codec. (05C3CAB0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3CAB0)
+FMOD: SoundI::release                : done (05C3CAB0)
+FMOD: SoundI::release                : WT_Fire_End.wav (05C3C3C0)
+FMOD: SoundI::release                : release codec. (05C3C3C0)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3C3C0)
+FMOD: SoundI::release                : done (05C3C3C0)
+FMOD: SoundI::release                : WT_Sling.wav (05C3D078)
+FMOD: SoundI::release                : release codec. (05C3D078)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3D078)
+FMOD: SoundI::release                : done (05C3D078)
+FMOD: SoundI::release                : WT_Sling_End.wav (05C3CD00)
+FMOD: SoundI::release                : release codec. (05C3CD00)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3CD00)
+FMOD: SoundI::release                : done (05C3CD00)
+FMOD: SoundI::release                : WT_Gun.wav (05C3CBD8)
+FMOD: SoundI::release                : release codec. (05C3CBD8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (05C3CBD8)
+FMOD: SoundI::release                : done (05C3CBD8)
 FMOD: SystemI::close                 : 
 FMOD: SystemI::close                 : Stop all sounds
 FMOD: Thread::callback               : * FMOD stream thread finished
 FMOD: Thread::close                  : FMOD stream thread thread destroyed
 FMOD: SystemI::close                 : Stream thread destroyed
 FMOD: SystemI::close                 : Shut down output.
+FMOD: Thread::callback               : * FMOD (WASAPI) feeder thread finished
+FMOD: Thread::close                  : FMOD (WASAPI) feeder thread thread destroyed
 FMOD: Thread::callback               : * FMOD mixer thread finished
 FMOD: Thread::close                  : FMOD mixer thread thread destroyed
 FMOD: SystemI::close                 : Free master channel group.
 FMOD: SystemI::close                 : Remove 'master' sound group.
+FMOD: OutputWASAPI::close            : Closing...
+FMOD: OutputWASAPI::close            : Done.
 FMOD: SystemI::close                 : Free software output.
 FMOD: SystemI::close                 : Free emulated output.
 FMOD: SystemI::close                 : Free channel pool.
