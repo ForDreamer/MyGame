@@ -151,7 +151,9 @@ void MapManager::Reset(void)
 	mbStepNotice = false;
 }
 
-
+/************************************************************************/
+/* ³õÊ¼»¯µØÍ¼                                                            */
+/************************************************************************/
 void MapManager::InitMap(void)
 {
 	assert(mNextMapId>=0 && mNextMapId<MAPID_MAX);
