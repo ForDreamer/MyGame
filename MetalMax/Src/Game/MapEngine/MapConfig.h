@@ -26,7 +26,7 @@ enum MapID
 	MAPID_MAX
 };
 
-struct MapInfo
+struct MapInfo //{宽度，高度，贴纸，物体数量，音乐}
 {
 	short width;
 	short height;

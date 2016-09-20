@@ -18,7 +18,7 @@ void MapNode::Init(int texID, bool actorMovable, bool tankMovable)
 	mTexId = (MapTexID)texID;
 	mSprTile.SetSize(36.0f+1.0f, 30.0f+1.0f);
 	mSprTile.SetTexture(gTexMgr.GetTileTex(mTexId));
-
+	//如果是水域，则展现动画效果
 	if(texID >= MT_MAP_11 && texID <= MT_MAP_21)
 	{
 		mSprTile.SetSize(36.0f+2.0f, 30.0f+2.0f);
