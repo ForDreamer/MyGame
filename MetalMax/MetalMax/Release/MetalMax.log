@@ -1,78 +1,25 @@
-﻿生成启动时间为 2016/9/20 10:24:17。
+﻿生成启动时间为 2016/9/21 16:13:55。
      1>项目“E:\my\MyGame\MetalMax\MetalMax\MetalMax.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\VS2013\VC\bin\CL.exe /c /I../../FMOD/inc /I../../DIRECTX/Include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Engine\FmodSound\FmodSound.cpp ..\Src\Engine\Hud\HudObject.cpp ..\Src\Engine\Hud\HudObjGroup.cpp ..\Src\Engine\Hud\Sprite.cpp ..\Src\Engine\Hud\Text.cpp ..\Src\Engine\Manager\RenderManager.cpp ..\Src\Engine\Manager\TextureManager.cpp ..\Src\Engine\Scene\Fader.cpp ..\Src\Engine\Scene\Scene.cpp ..\Src\Game\Battle\BattleActor.cpp ..\Src\Game\Battle\BattleManager.cpp ..\Src\Game\Battle\BattleUIMgr.cpp ..\Src\Game\Battle\BatUIAssistList.cpp ..\Src\Game\Battle\BatUIAtkList.cpp ..\Src\Game\Battle\BatUIHumanMain.cpp ..\Src\Game\Battle\BatUIInfoBox.cpp ..\Src\Game\Battle\BatUITankMain.cpp ..\Src\Game\Battle\BatUITextBox.cpp ..\Src\Game\Battle\BatUIToolList.cpp ..\Src\Game\Manager\BattleTankMgr.cpp ..\Src\Game\Manager\CharacterMgr.cpp ..\Src\Game\Manager\DialogSystemMgr.cpp ..\Src\Game\Manager\EquipMgr.cpp ..\Src\Game\Manager\GameStatusMgr.cpp ..\Src\Game\Manager\ItemMgr.cpp ..\Src\Game\Manager\SaveLoadMgr.cpp ..\Src\Game\MapEngine\MapActor.cpp ..\Src\Game\MapEngine\MapCamera.cpp ..\Src\Game\MapEngine\MapDetector.cpp ..\Src\Game\MapEngine\MapManager.cpp ..\Src\Game\MapEngine\MapNode.cpp ..\Src\Game\MapEngine\MapObject.cpp ..\Src\Game\MapEngine\MapRenderObj.cpp ..\Src\Game\MapEngine\MapTrigger.cpp ..\Src\Game\Scenes\BattleScene.cpp ..\Src\Game\Scenes\EndingScene.cpp ..\Src\Game\Scenes\InnScene.cpp ..\Src\Game\Scenes\MapNavigationScene.cpp ..\Src\Game\Scenes\NameSettingScene.cpp ..\Src\Game\Scenes\StartupScene.cpp ..\Src\Game\Scenes\WanterScene.cpp ..\Src\Game\UI\UIBase.cpp ..\Src\Game\UI\UIMain.cpp ..\Src\Game\UI\UIManager.cpp ..\Src\Game\UI\UIMisc.cpp ..\Src\Game\UI\UITop.cpp ..\Src\Main\Global.cpp ..\Src\Main\MainApp.cpp
-         FmodSound.cpp
-         HudObject.cpp
-         HudObjGroup.cpp
-         Sprite.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         Text.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         E:\VS2013\VC\bin\CL.exe /c /I../../FMOD/inc /I../../DIRECTX/Include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Engine\Manager\RenderManager.cpp ..\Src\Game\Battle\BattleManager.cpp ..\Src\Game\Battle\BatUIAssistList.cpp ..\Src\Game\Manager\SaveLoadMgr.cpp ..\Src\Game\MapEngine\MapActor.cpp ..\Src\Game\MapEngine\MapManager.cpp ..\Src\Game\MapEngine\MapNode.cpp ..\Src\Game\MapEngine\MapObject.cpp ..\Src\Game\Scenes\MapNavigationScene.cpp ..\Src\Game\Scenes\StartupScene.cpp ..\Src\Game\UI\UIMain.cpp ..\Src\Game\UI\UIManager.cpp ..\Src\Game\UI\UIMisc.cpp ..\Src\Game\UI\UITop.cpp
          RenderManager.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         TextureManager.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         Fader.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         Scene.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BattleActor.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          BattleManager.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BattleUIMgr.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          BatUIAssistList.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BatUIAtkList.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BatUIHumanMain.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BatUIInfoBox.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BatUITankMain.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BatUITextBox.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BatUIToolList.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         BattleTankMgr.cpp
-         正在编译...
-         CharacterMgr.cpp
-         DialogSystemMgr.cpp
-         EquipMgr.cpp
-         GameStatusMgr.cpp
-         ItemMgr.cpp
          SaveLoadMgr.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          MapActor.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         MapCamera.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         MapDetector.cpp
          MapManager.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          MapNode.cpp
          MapObject.cpp
-         MapRenderObj.cpp
-         MapTrigger.cpp
-         BattleScene.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         EndingScene.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         InnScene.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          MapNavigationScene.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         NameSettingScene.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          StartupScene.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         正在编译...
-         WanterScene.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         UIBase.cpp
          UIMain.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          UIManager.cpp
@@ -81,12 +28,6 @@
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
          UITop.cpp
          E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         Global.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         MainApp.cpp
-         E:\my\MyGame\DIRECTX\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\Resource.res" Resource.rc 
        Link:
          E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\my\MyGame\MetalMax\Release\MetalMax.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../FMOD/lib /LIBPATH:../../DIRECTX/Lib/x86 fmodL_vc.lib d3dx9.lib d3d9.lib dxguid.lib xapobase.lib XInput.lib DxErr.lib dinput8.lib winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\my\MyGame\MetalMax\Release\MetalMax.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\my\MyGame\MetalMax\Release\MetalMax.lib" /MACHINE:X86 /SAFESEH Release\Resource.res
          Release\FmodSound.obj
@@ -145,4 +86,4 @@
 
 生成成功。
 
-已用时间 00:00:26.55
+已用时间 00:00:13.73

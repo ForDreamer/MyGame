@@ -251,7 +251,7 @@ void MapManager::ReleaseMapObjects(void)
 	ReleaseMapDetectors();
 }
 
-
+//初始化系统的贴图
 void MapManager::InitMapRenderObjs(const MapObjInfo& mapObjInfo)
 {
 	MapNode* pMapNode = mpMapNodes.GetMapNode(mapObjInfo.tileX, mapObjInfo.tileY);
@@ -270,7 +270,7 @@ void MapManager::ReleaseMapRenderObjs(void)
 	}
 	mMapRenderObjs.clear();
 }
-
+//初始化所有触发
 void MapManager::InitMapTriggers(const MapObjInfo& mapObjInfo)
 {
 	MapNode* pMapNode = mpMapNodes.GetMapNode(mapObjInfo.tileX, mapObjInfo.tileY);
@@ -290,7 +290,7 @@ void MapManager::ReleaseMapTriggers(void)
 	}
 	mMapTriggers.clear();
 }
-
+//初始化所有人物动作
 void MapManager::InitMapActors(const MapObjInfo& mapObjInfo)
 {
 	MapNode* pMapNode = mpMapNodes.GetMapNode(mapObjInfo.tileX, mapObjInfo.tileY);
@@ -309,7 +309,7 @@ void MapManager::ReleaseMapActors(void)
 	}
 	mMapActors.clear();
 }
-
+//初始化所有可以调查的点
 void MapManager::InitMapDetectors(const MapObjInfo& mapObjInfo)
 {
 	MapNode* pMapNode = mpMapNodes.GetMapNode(mapObjInfo.tileX, mapObjInfo.tileY);

@@ -5,7 +5,7 @@
 #include "../../Engine/Hud/Sprite.h"
 
 enum DetectorType
-{
+{//调查（通缉，电脑，售货机，钱，道具，装备，洞穴）
 	DT_WANTER = 0,
 	DT_COMPUTER = 1,
 	DT_SELLER = 2,

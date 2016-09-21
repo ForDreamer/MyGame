@@ -55,8 +55,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 5898 samples, lengthbytes 23592
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 5898, lengthbytes 23592, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -86,8 +86,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12931 samples, lengthbytes 51724
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 12931, lengthbytes 51724, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -117,8 +117,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 11796 samples, lengthbytes 47184
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 11796, lengthbytes 47184, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -148,8 +148,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 30398 samples, lengthbytes 121592
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 30398, lengthbytes 121592, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -179,8 +179,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -210,8 +210,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 16787 samples, lengthbytes 67148
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 16787, lengthbytes 67148, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -230,8 +230,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 94464 samples, lengthbytes 33436
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 94464, lengthbytes 33436, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -261,8 +261,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -292,8 +292,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 16333 samples, lengthbytes 65332
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 16333, lengthbytes 65332, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -312,8 +312,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 93312 samples, lengthbytes 33018
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 93312, lengthbytes 33018, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -343,8 +343,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 12250 samples, lengthbytes 49000
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 12250, lengthbytes 49000, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -374,8 +374,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -394,8 +394,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 498816 samples, lengthbytes 180140
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 498816, lengthbytes 180140, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -414,8 +414,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 118656 samples, lengthbytes 42213
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 118656, lengthbytes 42213, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -445,8 +445,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 22458 samples, lengthbytes 89832
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 22458, lengthbytes 89832, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -465,8 +465,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 224640 samples, lengthbytes 80666
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 224640, lengthbytes 80666, channels 2, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -496,8 +496,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -527,8 +527,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -558,8 +558,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -589,8 +589,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 88178 samples, lengthbytes 176356
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 88178, lengthbytes 176356, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -620,8 +620,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -651,8 +651,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -682,8 +682,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -713,8 +713,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -744,8 +744,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESAMPLE
 FMOD: SystemI::createSoundInternal   : creating subsound 0/0
 FMOD: SystemI::createSample          : mode 00000000 length 44078 samples, lengthbytes 88156
 FMOD: SystemI::createSample          : subsamples = 1, channels = 1
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 44078, lengthbytes 88156, channels 1, format 2, freq 44100, mode 00000009
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -764,8 +764,8 @@ FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
 FMOD: System::createSoundInternal    : decode buffersize = 17280 : blocksize = 1152 : format = 2
 FMOD: SystemI::createSample          : mode 0000008a length 17280 samples, lengthbytes 798302
 FMOD: SystemI::createSample          : subsamples = 1, channels = 2
-FMOD: SystemI::createSample          : subsample 0.  output = 00BAC650
-FMOD: SystemI::createSample          : mSoftware = 00BAC650
+FMOD: SystemI::createSample          : subsample 0.  output = 01F1C608
+FMOD: SystemI::createSample          : mSoftware = 01F1C608
 FMOD: OutputSoftware::createSample   : lengthpcm 17280, lengthbytes 798302, channels 2, format 2, freq 44100, mode 0000008a
 FMOD: OutputSoftware::createSample   : done
 FMOD: SystemI::createSample          : done
@@ -780,156 +780,156 @@ FMOD: Thread::initThread             :     done.
 FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
 FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY.
 
-FMOD: SoundI::release                : Select.wav (07307CE8)
-FMOD: SoundI::release                : release codec. (07307CE8)
+FMOD: SoundI::release                : Select.wav (07777C78)
+FMOD: SoundI::release                : release codec. (07777C78)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07307CE8)
-FMOD: SoundI::release                : done (07307CE8)
-FMOD: SoundI::release                : Confirm.wav (0730DEB8)
-FMOD: SoundI::release                : release codec. (0730DEB8)
+FMOD: SoundI::release                : free this. (07777C78)
+FMOD: SoundI::release                : done (07777C78)
+FMOD: SoundI::release                : Confirm.wav (0777DE78)
+FMOD: SoundI::release                : release codec. (0777DE78)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0730DEB8)
-FMOD: SoundI::release                : done (0730DEB8)
-FMOD: SoundI::release                : OpenDoor.wav (0731AEA0)
-FMOD: SoundI::release                : release codec. (0731AEA0)
+FMOD: SoundI::release                : free this. (0777DE78)
+FMOD: SoundI::release                : done (0777DE78)
+FMOD: SoundI::release                : OpenDoor.wav (0778AE60)
+FMOD: SoundI::release                : release codec. (0778AE60)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0731AEA0)
-FMOD: SoundI::release                : done (0731AEA0)
-FMOD: SoundI::release                : IntoEntry.wav (07326CC8)
-FMOD: SoundI::release                : release codec. (07326CC8)
+FMOD: SoundI::release                : free this. (0778AE60)
+FMOD: SoundI::release                : done (0778AE60)
+FMOD: SoundI::release                : IntoEntry.wav (07796C88)
+FMOD: SoundI::release                : release codec. (07796C88)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07326CC8)
-FMOD: SoundI::release                : done (07326CC8)
-FMOD: SoundI::release                : Fall.wav (07344D98)
-FMOD: SoundI::release                : release codec. (07344D98)
+FMOD: SoundI::release                : free this. (07796C88)
+FMOD: SoundI::release                : done (07796C88)
+FMOD: SoundI::release                : Fall.wav (077B4D58)
+FMOD: SoundI::release                : release codec. (077B4D58)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07344D98)
-FMOD: SoundI::release                : done (07344D98)
-FMOD: SoundI::release                : Coin.wav (0735AB90)
-FMOD: SoundI::release                : release codec. (0735AB90)
+FMOD: SoundI::release                : free this. (077B4D58)
+FMOD: SoundI::release                : done (077B4D58)
+FMOD: SoundI::release                : Coin.wav (077CAB50)
+FMOD: SoundI::release                : release codec. (077CAB50)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0735AB90)
-FMOD: SoundI::release                : done (0735AB90)
-FMOD: SoundI::release                : Inn.mp3 (073712C8)
-FMOD: SoundI::release                : release codec. (073712C8)
+FMOD: SoundI::release                : free this. (077CAB50)
+FMOD: SoundI::release                : done (077CAB50)
+FMOD: SoundI::release                : Inn.mp3 (077E1288)
+FMOD: SoundI::release                : release codec. (077E1288)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (073712C8)
-FMOD: SoundI::release                : done (073712C8)
-FMOD: SoundI::release                : GotoTank.wav (0777C8C8)
-FMOD: SoundI::release                : release codec. (0777C8C8)
+FMOD: SoundI::release                : free this. (077E1288)
+FMOD: SoundI::release                : done (077E1288)
+FMOD: SoundI::release                : GotoTank.wav (07DDC8C8)
+FMOD: SoundI::release                : release codec. (07DDC8C8)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0777C8C8)
-FMOD: SoundI::release                : done (0777C8C8)
-FMOD: SoundI::release                : GetItem.wav (0777CE50)
-FMOD: SoundI::release                : release codec. (0777CE50)
+FMOD: SoundI::release                : free this. (07DDC8C8)
+FMOD: SoundI::release                : done (07DDC8C8)
+FMOD: SoundI::release                : GetItem.wav (07DDCE50)
+FMOD: SoundI::release                : release codec. (07DDCE50)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0777CE50)
-FMOD: SoundI::release                : done (0777CE50)
-FMOD: SoundI::release                : StartBattle.mp3 (0738D368)
-FMOD: SoundI::release                : release codec. (0738D368)
+FMOD: SoundI::release                : free this. (07DDCE50)
+FMOD: SoundI::release                : done (07DDCE50)
+FMOD: SoundI::release                : StartBattle.mp3 (077FD328)
+FMOD: SoundI::release                : release codec. (077FD328)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0738D368)
-FMOD: SoundI::release                : done (0738D368)
-FMOD: SoundI::release                : EnemyAppear.wav (077DE590)
-FMOD: SoundI::release                : release codec. (077DE590)
+FMOD: SoundI::release                : free this. (077FD328)
+FMOD: SoundI::release                : done (077FD328)
+FMOD: SoundI::release                : EnemyAppear.wav (07E3E590)
+FMOD: SoundI::release                : release codec. (07E3E590)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (077DE590)
-FMOD: SoundI::release                : done (077DE590)
-FMOD: SoundI::release                : Escape.wav (077EAAF8)
-FMOD: SoundI::release                : release codec. (077EAAF8)
+FMOD: SoundI::release                : free this. (07E3E590)
+FMOD: SoundI::release                : done (07E3E590)
+FMOD: SoundI::release                : Escape.wav (07E4AAF8)
+FMOD: SoundI::release                : release codec. (07E4AAF8)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (077EAAF8)
-FMOD: SoundI::release                : done (077EAAF8)
-FMOD: SoundI::release                : Fail.mp3 (07805898)
-FMOD: SoundI::release                : release codec. (07805898)
+FMOD: SoundI::release                : free this. (07E4AAF8)
+FMOD: SoundI::release                : done (07E4AAF8)
+FMOD: SoundI::release                : Fail.mp3 (07E65898)
+FMOD: SoundI::release                : release codec. (07E65898)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07805898)
-FMOD: SoundI::release                : done (07805898)
-FMOD: SoundI::release                : Winning.mp3 (0738F8F8)
-FMOD: SoundI::release                : release codec. (0738F8F8)
+FMOD: SoundI::release                : free this. (07E65898)
+FMOD: SoundI::release                : done (07E65898)
+FMOD: SoundI::release                : Winning.mp3 (077FF8B8)
+FMOD: SoundI::release                : release codec. (077FF8B8)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0738F8F8)
-FMOD: SoundI::release                : done (0738F8F8)
-FMOD: SoundI::release                : Disappear.wav (0738FE80)
-FMOD: SoundI::release                : release codec. (0738FE80)
+FMOD: SoundI::release                : free this. (077FF8B8)
+FMOD: SoundI::release                : done (077FF8B8)
+FMOD: SoundI::release                : Disappear.wav (077FFE40)
+FMOD: SoundI::release                : release codec. (077FFE40)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0738FE80)
-FMOD: SoundI::release                : done (0738FE80)
-FMOD: SoundI::release                : LevelUp.mp3 (0789A3C0)
-FMOD: SoundI::release                : release codec. (0789A3C0)
+FMOD: SoundI::release                : free this. (077FFE40)
+FMOD: SoundI::release                : done (077FFE40)
+FMOD: SoundI::release                : LevelUp.mp3 (07EFA3C0)
+FMOD: SoundI::release                : release codec. (07EFA3C0)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0789A3C0)
-FMOD: SoundI::release                : done (0789A3C0)
-FMOD: SoundI::release                : WT_Body.wav (0789A948)
-FMOD: SoundI::release                : release codec. (0789A948)
+FMOD: SoundI::release                : free this. (07EFA3C0)
+FMOD: SoundI::release                : done (07EFA3C0)
+FMOD: SoundI::release                : WT_Body.wav (07EFA918)
+FMOD: SoundI::release                : release codec. (07EFA918)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0789A948)
-FMOD: SoundI::release                : done (0789A948)
-FMOD: SoundI::release                : WT_Body_End.wav (078B0740)
-FMOD: SoundI::release                : release codec. (078B0740)
+FMOD: SoundI::release                : free this. (07EFA918)
+FMOD: SoundI::release                : done (07EFA918)
+FMOD: SoundI::release                : WT_Body_End.wav (07F10710)
+FMOD: SoundI::release                : release codec. (07F10710)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (078B0740)
-FMOD: SoundI::release                : done (078B0740)
-FMOD: SoundI::release                : WT_Cannon.wav (078C6538)
-FMOD: SoundI::release                : release codec. (078C6538)
+FMOD: SoundI::release                : free this. (07F10710)
+FMOD: SoundI::release                : done (07F10710)
+FMOD: SoundI::release                : WT_Cannon.wav (07F26508)
+FMOD: SoundI::release                : release codec. (07F26508)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (078C6538)
-FMOD: SoundI::release                : done (078C6538)
-FMOD: SoundI::release                : WT_Cannon_End.wav (078DC330)
-FMOD: SoundI::release                : release codec. (078DC330)
+FMOD: SoundI::release                : free this. (07F26508)
+FMOD: SoundI::release                : done (07F26508)
+FMOD: SoundI::release                : WT_Cannon_End.wav (07F3C300)
+FMOD: SoundI::release                : release codec. (07F3C300)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (078DC330)
-FMOD: SoundI::release                : done (078DC330)
-FMOD: SoundI::release                : WT_Fire.wav (079079B0)
-FMOD: SoundI::release                : release codec. (079079B0)
+FMOD: SoundI::release                : free this. (07F3C300)
+FMOD: SoundI::release                : done (07F3C300)
+FMOD: SoundI::release                : WT_Fire.wav (07F67980)
+FMOD: SoundI::release                : release codec. (07F67980)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (079079B0)
-FMOD: SoundI::release                : done (079079B0)
-FMOD: SoundI::release                : WT_Fire_End.wav (0791D7A8)
-FMOD: SoundI::release                : release codec. (0791D7A8)
+FMOD: SoundI::release                : free this. (07F67980)
+FMOD: SoundI::release                : done (07F67980)
+FMOD: SoundI::release                : WT_Fire_End.wav (07F7D778)
+FMOD: SoundI::release                : release codec. (07F7D778)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (0791D7A8)
-FMOD: SoundI::release                : done (0791D7A8)
-FMOD: SoundI::release                : WT_Sling.wav (07B25D18)
-FMOD: SoundI::release                : release codec. (07B25D18)
+FMOD: SoundI::release                : free this. (07F7D778)
+FMOD: SoundI::release                : done (07F7D778)
+FMOD: SoundI::release                : WT_Sling.wav (08185D18)
+FMOD: SoundI::release                : release codec. (08185D18)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07B25D18)
-FMOD: SoundI::release                : done (07B25D18)
-FMOD: SoundI::release                : WT_Sling_End.wav (07B3BB10)
-FMOD: SoundI::release                : release codec. (07B3BB10)
+FMOD: SoundI::release                : free this. (08185D18)
+FMOD: SoundI::release                : done (08185D18)
+FMOD: SoundI::release                : WT_Sling_End.wav (0819BB10)
+FMOD: SoundI::release                : release codec. (0819BB10)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07B3BB10)
-FMOD: SoundI::release                : done (07B3BB10)
-FMOD: SoundI::release                : WT_Gun.wav (07B51908)
-FMOD: SoundI::release                : release codec. (07B51908)
+FMOD: SoundI::release                : free this. (0819BB10)
+FMOD: SoundI::release                : done (0819BB10)
+FMOD: SoundI::release                : WT_Gun.wav (081B1908)
+FMOD: SoundI::release                : release codec. (081B1908)
 FMOD: Codec::release                 : 
 FMOD: Codec::release                 : done
-FMOD: SoundI::release                : free this. (07B51908)
-FMOD: SoundI::release                : done (07B51908)
+FMOD: SoundI::release                : free this. (081B1908)
+FMOD: SoundI::release                : done (081B1908)
 FMOD: SystemI::close                 : 
 FMOD: SystemI::close                 : Stop all sounds
 FMOD: Thread::callback               : * FMOD stream thread finished
